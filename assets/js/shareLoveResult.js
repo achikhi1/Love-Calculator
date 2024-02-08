@@ -10,7 +10,7 @@ function shareLoveResult() {
     })
         .then(response => response.json())
         .then(data => {
-            var imageUrl = window.location.origin + '/archive/love-calculator/' + data.filePath;
+            var imageUrl = window.location.origin + '/archive/lovecalculator/' + data.filePath;
 
             document.getElementById("loveImage").src = imageUrl;
 
