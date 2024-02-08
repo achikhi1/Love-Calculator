@@ -1,130 +1,33 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Header styles */
-header {
-    background-color: #ff6b6b;
-    color: #fff;
-    padding: 20px 0;
     text-align: center;
+    margin: 50px;
+    background-color: rgb(255 193 203);
 }
 
-header h1 {
-    font-size: 2.5rem;
-}
-
-/* Navigation styles */
-nav {
-    background-color: #ff9f9f;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-nav ul li a:hover {
-    background-color: #ff7e7e;
-}
-
-/* Main content styles */
-main {
-    padding: 20px 0;
-}
-
-section {
-    background-color: #fff;
-    padding: 20px;
+#loveForm {
     margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #ff6b6b;
-    margin-bottom: 10px;
+#lovePercentage {
+    display: none;
 }
 
-section p {
-    margin-bottom: 10px;
+#heart {
+    font-size: 48px;
+    color: red;
+    display: none;
 }
 
-/* Footer styles */
-footer {
-    background-color: #ff9f9f;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-/* Button styles */
-.btn {
-    display: inline-block;
-    background-color: #ff6b6b;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #ff7e7e;
-}
-
-/* Form styles */
-form {
+#loveImageContainer {
     margin-top: 20px;
 }
 
-input[type="text"], textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+#loveImage {
+    width: 400px;
+    height: 200px;
 }
 
-input[type="submit"] {
-    background-color: #ff6b6b;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #ff7e7e;
+#shareButton {
+    opacity: 0;
 }
