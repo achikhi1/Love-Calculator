@@ -8,5 +8,6 @@ function generateLovePercentage(name1, name2) {
     }
 
     var lovePercentage = hash % 101;
+    loader()
     return lovePercentage;
 }
