@@ -16,7 +16,6 @@ function shareLoveResult() {
 
             if (navigator.share) {
                 navigator.share({
-                    // haal deze weg en kijk of die nog werkt
                     title: "Love Test Result",
                     text: "Check out our love test result!",
                     url: imageUrl,
